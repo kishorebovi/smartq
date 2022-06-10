@@ -1,0 +1,26 @@
+
+.content{
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+
+    .card{
+        display: flex;
+        margin: 20px;
+        width: 100px;
+        height: 100px;
+        color: white;
+        padding: 5px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        cursor: pointer;
+    }
+
+    .stock{
+        background-color: #0bc708;
+    }
+
+    .no-stock{
+        background-color: #b50b0b;
+    }
+}

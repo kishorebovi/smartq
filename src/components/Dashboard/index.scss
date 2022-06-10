@@ -1,0 +1,21 @@
+
+.dashboard{
+    .header-container{
+        height: 5vh;
+    }
+    .body{
+        display: flex;
+        height: 85vh;
+
+        .sidebar-container{
+            width: 20vw;
+        }
+
+        .content-container{
+            width: 80vw;
+        }
+    }
+    .footer{
+        display: 10vh;
+    }
+}

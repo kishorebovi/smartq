@@ -1,0 +1,17 @@
+@import '../../App.css';
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  button {
+    margin: 25px;
+    height: 50px;
+    background-color: var(--theme-primary);
+    width: 25vw;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+  }
+}
